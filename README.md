@@ -1,544 +1,875 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Clean Blog - Start Bootstrap Theme</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Sample Post</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Page Header-->
-        <header class="masthead" style="background-image: url('assets/img/about-bg.jpg')">
-            <div class="container position-relative px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <div class="page-heading">
-                            <h1>About Me</h1>
-                            <span class="subheading">This is what I do.</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- Main Content-->
-        <main class="mb-4">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <!-- Footer-->
-        <footer class="border-top">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <ul class="list-inline text-center">
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2021</div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+<!-->contact.html-->
+
+<!doctype html>
+
+<html>
+
+<head>
+
+<title>Photography Website Title</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>My Portfolio Website</h1>
+
+</header>
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Home Page</a></li>
+
+<li><a href="gallery.html">Gallery Page</a></li>
+
+<li><a href="portfolio.html">Portfolio Page</a></li>
+
+<li><a href="hobbies.html">My Hobbies</a></li>
+
+<li><a href="contact.html">Contact Me</a></li>
+
+</ul>
+
+</nav>
+
+<img class="photographer" src="images/camera.png" alt="">
+
+<div class="content">
+
+<h2>How to Contact Me, and I will contact you</h2>
+
+<p>Fill in the form below and press Submit when done. </p>
+
+<div class="container">
+
+<form action="">
+
+<label for="fname">First Name</label>
+
+<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+<label for="lname">Last Name</label>
+
+<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+<label for="regarding">Regarding</label>
+
+<select id="regarding" name="regarding">
+
+<option value="photography">Photography</option>
+
+<option value="videoedit">Video Editing</option>
+
+<option value="graphics">Graphics Design</option>
+
+<option value="general">General Things</option>
+
+</select>
+
+<label for="subject">Subject</label>
+
+<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+<input type="submit" value="Submit">
+
+</form>
+
+</div>
+
+</div>
+
+</body>
+
 </html>
 
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Clean Blog - Start Bootstrap Theme</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Sample Post</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Page Header-->
-        <header class="masthead" style="background-image: url('assets/img/contact-bg.jpg')">
-            <div class="container position-relative px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <div class="page-heading">
-                            <h1>Contact Me</h1>
-                            <span class="subheading">Have questions? I have answers.</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- Main Content-->
-        <main class="mb-4">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
-                        <div class="my-5">
-                            <!-- * * * * * * * * * * * * * * *-->
-                            <!-- * * SB Forms Contact Form * *-->
-                            <!-- * * * * * * * * * * * * * * *-->
-                            <!-- This form is pre-integrated with SB Forms.-->
-                            <!-- To make this form functional, sign up at-->
-                            <!-- https://startbootstrap.com/solution/contact-forms-->
-                            <!-- to get an API token!-->
-                            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                                <div class="form-floating">
-                                    <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                    <label for="name">Name</label>
-                                    <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                                </div>
-                                <div class="form-floating">
-                                    <input class="form-control" id="email" type="email" placeholder="Enter your email..." data-sb-validations="required,email" />
-                                    <label for="email">Email address</label>
-                                    <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                    <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                                </div>
-                                <div class="form-floating">
-                                    <input class="form-control" id="phone" type="tel" placeholder="Enter your phone number..." data-sb-validations="required" />
-                                    <label for="phone">Phone Number</label>
-                                    <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                                </div>
-                                <div class="form-floating">
-                                    <textarea class="form-control" id="message" placeholder="Enter your message here..." style="height: 12rem" data-sb-validations="required"></textarea>
-                                    <label for="message">Message</label>
-                                    <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                                </div>
-                                <br />
-                                <!-- Submit success message-->
-                                <!---->
-                                <!-- This is what your users will see when the form-->
-                                <!-- has successfully submitted-->
-                                <div class="d-none" id="submitSuccessMessage">
-                                    <div class="text-center mb-3">
-                                        <div class="fw-bolder">Form submission successful!</div>
-                                        To activate this form, sign up at
-                                        <br />
-                                        <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                    </div>
-                                </div>
-                                <!-- Submit error message-->
-                                <!---->
-                                <!-- This is what your users will see when there is-->
-                                <!-- an error submitting the form-->
-                                <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                                <!-- Submit Button-->
-                                <button class="btn btn-primary text-uppercase disabled" id="submitButton" type="submit">Send</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <!-- Footer-->
-        <footer class="border-top">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <ul class="list-inline text-center">
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2021</div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+<!--gallery.html-->
+
+<!doctype html>
+
+<html>
+
+<head>
+
+<title>Photography Website Title</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>My Portfolio Website</h1>
+
+</header>
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Home Page</a></li>
+
+<li><a href="gallery.html">Gallery Page</a></li>
+
+<li><a href="portfolio.html">Portfolio Page</a></li>
+
+<li><a href="hobbies.html">My Hobbies</a></li>
+
+<li><a href="contact.html">Contact Me</a></li>
+
+</ul>
+
+</nav>
+
+<img class="photographer" src="images/camera.png" alt="">
+
+<div class="content">
+
+<h2>This is my Gallery.</h2>
+
+<div class="photoGallery" style="max-width:80%">
+
+<img class="mySlides" src="images/gallery/beach-image.jpg" style="width:100%">
+
+<img class="mySlides" src="images/gallery/butterfly-image.jpg" style="width:100%">
+
+<img class="mySlides" src="images/gallery/castle-image.jpg" style="width:100%">
+
+<img class="mySlides" src="images/gallery/cat-image.jpg" style="width:100%">
+
+<img class="mySlides" src="images/gallery/chicken-image.jpg" style="width:100%">
+
+<img class="mySlides" src="images/gallery/duck-image.jpg" style="width:100%">
+
+<img class="mySlides" src="images/gallery/landscape-image.jpg" style="width:100%">
+
+<img class="mySlides" src="images/gallery/lighthouse-image.jpg" style="width:100%">
+
+<img class="mySlides" src="images/gallery/milkshake-image.jpg" style="width:100%">
+
+<img class="mySlides" src="images/gallery/rabbit-image.jpg" style="width:100%">
+
+<div class="leftButton" onclick="plusDivs(-1)"><img src="images/leftArrow.png" alt="left arrow"></div>
+
+<div class="rightButton" onclick="plusDivs(1)"><img src="images/nextArrow.png" alt="left arrow"></div>
+
+</div>
+
+</div>
+
+<script>
+
+var slideIndex = 1; // creating a variable called slide index
+
+showDivs(slideIndex); // calling the show show divs function with the slide index in it
+
+//this is the plus divs function
+
+function plusDivs(n) {
+
+showDivs(slideIndex += n);
+
+}
+
+// this is the current div function
+
+function currentDiv(n) {
+
+showDivs(slideIndex = n);
+
+}
+
+// this is the show divs functions
+
+function showDivs(n) {
+
+var i; // local variable called i
+
+var x = document.getElementsByClassName("mySlides");
+
+// this is the variable called x
+
+// in this variable we will hold the my slides div
+
+// we are identifying the div using the class element
+
+if (n > x.length) {slideIndex = 1}
+
+// if we have gone through all of the images then we reset back to first one.
+
+if (n < 1) {slideIndex = x.length}
+
+// if we have gone below the number of images we have then we reset back to the first one.
+
+// below is the for loop which will go through x and show only the one present
+
+// it will hide rest of the images from view.
+
+for (i = 0; i < x.length; i++)
+
+{
+
+x[i].style.display = "none"; // we are changing the display style to none
+
+// this will make it invisible from the screen
+
+}
+
+x[slideIndex-1].style.display = "block";  
+
+// this will show only 1 image
+
+}
+
+</script>
+
+</body>
+
 </html>
 
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Clean Blog - Start Bootstrap Theme</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Sample Post</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Page Header-->
-        <header class="masthead" style="background-image: url('assets/img/home-bg.jpg')">
-            <div class="container position-relative px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <div class="site-heading">
-                            <h1>Clean Blog</h1>
-                            <span class="subheading">A Blog Theme by Start Bootstrap</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- Main Content-->
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-md-10 col-lg-8 col-xl-7">
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Man must explore, and this is exploration at its greatest</h2>
-                            <h3 class="post-subtitle">Problems look mighty small from 150 miles up</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on September 24, 2021
-                        </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html"><h2 class="post-title">I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.</h2></a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on September 18, 2021
-                        </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Science has not yet mastered prophecy</h2>
-                            <h3 class="post-subtitle">We predict too much for the next year and yet far too little for the next ten.</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on August 24, 2021
-                        </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Failure is not an option</h2>
-                            <h3 class="post-subtitle">Many say exploration is part of our destiny, but it’s actually our duty to future generations.</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on July 8, 2021
-                        </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Pager-->
-                    <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a></div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer-->
-        <footer class="border-top">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <ul class="list-inline text-center">
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2021</div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+<!-- hobbies.html-->
+
+<!doctype html>
+
+<html>
+
+<head>
+
+<title>Photography Website Title</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>My Portfolio Website</h1>
+
+</header>
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Home Page</a></li>
+
+<li><a href="gallery.html">Gallery Page</a></li>
+
+<li><a href="portfolio.html">Portfolio Page</a></li>
+
+<li><a href="hobbies.html">My Hobbies</a></li>
+
+<li><a href="contact.html">Contact Me</a></li>
+
+</ul>
+
+</nav>
+
+<img class="photographer" src="images/camera.png" alt="">
+
+<div class="content">
+
+<h2>My Hobbies and things I like</h2>
+
+<div class="hobbies">
+
+<div class="videos">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P9YNl1urDyE" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+<div class="videos">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sglxMjjGnYU" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+<div class="videos">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4mx8EMlUMlw" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+<div class="videos">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DZcMTnmFbo4" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+<div class="videos">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2fW4_mPYvJY" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+<div class="videos">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nFuc_wEL3oQ" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+
 </html>
 
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Clean Blog - Start Bootstrap Theme</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Sample Post</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Page Header-->
-        <header class="masthead" style="background-image: url('assets/img/post-bg.jpg')">
-            <div class="container position-relative px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <div class="post-heading">
-                            <h1>Man must explore, and this is exploration at its greatest</h1>
-                            <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
-                            <span class="meta">
-                                Posted by
-                                <a href="#!">Start Bootstrap</a>
-                                on August 24, 2021
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- Post Content-->
-        <article class="mb-4">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
-                        <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
-                        <p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
-                        <p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
-                        <p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
-                        <h2 class="section-heading">The Final Frontier</h2>
-                        <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-                        <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-                        <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-                        <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-                        <h2 class="section-heading">Reaching for the Stars</h2>
-                        <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-                        <a href="#!"><img class="img-fluid" src="assets/img/post-sample-image.jpg" alt="..." /></a>
-                        <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-                        <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-                        <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-                        <p>
-                            Placeholder text by
-                            <a href="http://spaceipsum.com/">Space Ipsum</a>
-                            &middot; Images by
-                            <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </article>
-        <!-- Footer-->
-        <footer class="border-top">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <ul class="list-inline text-center">
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2021</div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+<!--index.html-->
+
+<!doctype html>
+
+<html>
+
+<head>
+
+<title>Photography Website Title</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>My Portfolio Website</h1>
+
+</header>
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Home Page</a></li>
+
+<li><a href="gallery.html">Gallery Page</a></li>
+
+<li><a href="portfolio.html">Portfolio Page</a></li>
+
+<li><a href="hobbies.html">My Hobbies</a></li>
+
+<li><a href="contact.html">Contact Me</a></li>
+
+</ul>
+
+</nav>
+
+<img class="photographer" src="images/camera.png" alt="">
+
+<div class="content">
+
+<h2>Second heading for the Home Page</h2>
+
+<p>Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info </p>
+
+<p>Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info </p>
+
+<p>Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info </p>
+
+</div>
+
+</body>
+
 </html>
+
+<!-- portfoli.html-->
+
+<!doctype html>
+
+<html>
+
+<head>
+
+<title>Photography Website Title</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>My Portfolio Website</h1>
+
+</header>
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Home Page</a></li>
+
+<li><a href="gallery.html">Gallery Page</a></li>
+
+<li><a href="portfolio.html">Portfolio Page</a></li>
+
+<li><a href="hobbies.html">My Hobbies</a></li>
+
+<li><a href="contact.html">Contact Me</a></li>
+
+</ul>
+
+</nav>
+
+<img class="photographer" src="images/camera.png" alt="">
+
+<div class="content">
+
+<h2>Stuff I did and Proud Of</h2>
+
+<div class="portfolio">
+
+<div class="pImage"><img src="images/portfolio/batman.jpg" alt="" width="150px"></div>
+
+<span class="pInfo">Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info</span>
+
+</div>
+
+<div style="clear: both;"></div>
+
+<div class="portfolio">
+
+<div class="pImage"><img src="images/portfolio/redposter.jpg" alt="" width="150px"></div
+
+<span class="pInfo">Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info</span>
+
+</div>
+
+<div style="clear: both;"></div>
+
+<div class="portfolio">
+
+<div class="pImage"><img src="images/portfolio/teamwork.jpg" alt="" width="150px"></div>
+
+<span class="pInfo">Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info</span>
+
+</div>
+
+<div style="clear: both;"></div>
+
+<div class="portfolio">
+
+<div class="pImage"><img src="images/portfolio/web1.jpg" alt="" width="150px"></div>
+
+<span class="pInfo">Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info</span>
+
+</div>
+
+<div style="clear: both;"></div>
+
+<div class="portfolio">
+
+<div class="pImage"><img src="images/portfolio/web2.jpg" alt="" width="150px"></div>
+
+<span class="pInfo">Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info</span>
+
+</div>
+
+<div style="clear: both;"></div>
+
+<div class="portfolio">
+
+<div class="pImage"><img src="images/portfolio/web3.jpg" alt="" width="150px"></div>
+
+<span class="pInfo">Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info</span>
+
+</div>
+
+<div style="clear: both;"></div>
+
+</div>
+
+</body>
+
+</html>
+
+<!--style.css-->
+
+html,body,h1, h2, h3, p, div, li, ul
+
+{
+
+margin: 0px;
+
+padding: 0px;
+
+font-family: Arial;
+
+color: yellow;
+
+letter-spacing: 2px;
+
+text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+}
+
+html, body
+
+{
+
+height:100%;
+
+}
+
+html
+
+{
+
+background: url(images/background.jpg) no-repeat center center fixed;
+
+-webkit-background-size: cover;
+
+-moz-background-size: cover;
+
+-o-background-size: cover;
+
+background-size: cover;
+
+}
+
+header
+
+{
+
+width: 100%;
+
+height: 10%;
+
+text-align: center;
+
+}
+
+header h1
+
+{
+
+position: relative;
+
+top: 50%;
+
+transform: translateY(-50%);
+
+}
+
+nav
+
+{
+
+width: 15%;
+
+height: 80%;
+
+float: left;
+
+}
+
+nav ul
+
+{
+
+list-style: none;
+
+}
+
+nav li
+
+{
+
+font-size: 16pt;
+
+display: block;
+
+margin-left: 10px;
+
+padding: 5px;
+
+margin-top: 15px;
+
+width: 80%;
+
+text-align: center;
+
+}
+
+nav a:link, a:visited {
+
+background-color: #000;
+
+color: white;
+
+padding: 14px 25px;
+
+text-align: center;
+
+text-decoration: none;
+
+display: block;
+
+width: 80%;
+
+transition: box-shadow .3s;
+
+}
+
+nav a:hover, a:active {
+
+background-color: #21212c;
+
+box-shadow: 0 0 11px #fffa69;
+
+}
+
+p
+
+{
+
+line-height: 30px;
+
+margin-left: 15px;
+
+margin-right: 15px;
+
+margin-top: 5%;
+
+}
+
+.content
+
+{
+
+padding-top: 10px;
+
+padding-left: 5%;
+
+width: 80%;
+
+height: 80%;
+
+float: left;
+
+}
+
+footer
+
+{
+
+width: 100%;
+
+background: red;
+
+height: 10%;
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+
+input[type=text], select, textarea {
+
+width: 100%; /* Full width */
+
+padding: 12px; /* Some padding */  
+
+border: 1px solid #ccc; /* Gray border */
+
+border-radius: 4px; /* Rounded borders */
+
+box-sizing: border-box; /* Make sure that padding and width stays in place */
+
+margin-top: 6px; /* Add a top margin */
+
+margin-bottom: 16px; /* Bottom margin */
+
+resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+
+font-family: Arial;
+
+}
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+
+background-color: #000;
+
+color: white;
+
+padding: 12px 20px;
+
+border: none;
+
+border-radius: 4px;
+
+cursor: pointer;
+
+transition: box-shadow .3s;
+
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+
+background-color: #21212c;
+
+box-shadow: 0 0 11px #fffa69;
+
+}
+
+/* Add a background color and some padding around the form */
+
+.container {
+
+border-radius: 5px;
+
+padding: 20px;
+
+width: 60%;
+
+}
+
+.mySlides
+
+{
+
+height: 700px;
+
+box-shadow: 0 0 11px #fffa69;
+
+}
+
+.leftButton
+
+{
+
+position: absolute;
+
+float: left;
+
+font-size: 20pt;
+
+cursor:pointer
+
+}
+
+.rightButton
+
+{
+
+font-size: 20pt;
+
+clear: both;
+
+float: right;
+
+cursor:pointer
+
+}
+
+.photoGallery
+
+{
+
+margin-top: 20px;
+
+margin-left: auto;
+
+margin-right: auto;
+
+}
+
+.portfolio
+
+{
+
+width: 80%;
+
+clear: both;
+
+margin-top: 15px;
+
+background-image: url("images/bgPort.jpg");
+
+background-attachment: fixed;
+
+height: 250px;
+
+box-shadow: 0 0 5px lightblue;
+
+}
+
+.pImage
+
+{
+
+padding: 10px;
+
+margin-top: 10px;
+
+width: 150px;
+
+float: left;
+
+}
+
+.pInfo
+
+{
+
+clear: both;
+
+position: relative;
+
+top: 40%;
+
+transform: translateY(-40%);
+
+}
+
+.videos
+
+{
+
+margin-top: 15px;
+
+margin-left: 5%;
+
+box-shadow: 0 0 5px pink;
+
+width: 560px;
+
+float: left;
+
+}
+
+.hobbies
+
+{
+
+width: 100%;
+
+}
+
+.photographer
+
+{
+
+position: fixed;
+
+bottom: -10px;
+
+left: 0px;
+
+}
